@@ -52,13 +52,13 @@ body.dark {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--primary-color);
+  background: #2f2f2f;
   border-radius: 12px;
   transition: all 0.3s ease;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0b3cc1;
+  background: #2f2f2f;
 }
 
 body.dark::-webkit-scrollbar-thumb:hover,
@@ -230,7 +230,7 @@ body.dark .switch:before {
   position: relative;
   left: 250px;
   background-color: var(--panel-color);
-  height: 100vh;
+  height: 100%;
   width: calc(100% - 250px);
   padding: 10px 14px;
   transition: var(--tran-05);
